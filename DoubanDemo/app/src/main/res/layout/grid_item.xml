@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ItemImage"
+        android:layout_width="80dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/ItemText"
+        android:lines="1"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:ellipsize="end"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/ItemImage"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+            />
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+    android:orientation="horizontal" >
+        <RatingBar
+            android:numStars="5"
+            android:id="@+id/ratingBar"
+            android:isIndicator="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/ratingBarStyleSmall"
+                                />
+        <TextView
+            android:id="@+id/ItemText2"
+            android:lines="1"
+            android:text="10"
+            android:textSize="12sp"
+            android:ellipsize="end"
+            android:layout_marginTop="0.8dp"
+            android:layout_marginLeft="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

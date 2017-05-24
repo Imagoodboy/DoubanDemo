@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mt.doubandemo.ItemInfoActivity">
+    <ImageView
+        android:id="@+id/ImagePic"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="135dp"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/casts"
+        android:text="主演:"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:id="@+id/original_title"
+        android:text="又名:"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+    <TextView
+        android:id="@+id/genres"
+        android:text="类型:"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+    <TextView
+        android:id="@+id/year"
+        android:text="上映时间:"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
