@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">DoubanDemo</string>
+    <string name="tab_title1">影院热映</string>
+    <string name="tab_title2">即将上映</string>
+    <string name="casts">主演:</string>
+    <string name="original_title">又名:</string>
+    <string name="genre">类型:</string>
+    <string name="year">上映时间:</string>
 </resources>

@@ -6,9 +6,9 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.mt.doubandemo.ItemInfoActivity">
+    tools:context="com.example.mt.doubandemo.ItemInfoActivity2">
     <com.facebook.drawee.view.SimpleDraweeView
-        android:id="@+id/img_info_pic"
+        android:id="@+id/img_info_pic2"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:layout_marginTop="15dp"
@@ -16,28 +16,28 @@
         fresco:actualImageScaleType="fitCenter"
         fresco:placeholderImage="@drawable/loading" />
     <TextView
-        android:id="@+id/tv_hot_casts"
+        android:id="@+id/tv_coming_casts"
         android:text="@string/casts"
         android:textSize="20sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"/>
     <TextView
-        android:id="@+id/tv_hot_original_title"
+        android:id="@+id/tv_coming_original_title"
         android:text="@string/original_title"
         android:textSize="20sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"/>
     <TextView
-        android:id="@+id/tv_hot_genres"
+        android:id="@+id/tv_coming_genres"
         android:text="@string/genre"
         android:textSize="20sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"/>
     <TextView
-        android:id="@+id/tv_hot_year"
+        android:id="@+id/tv_coming_year"
         android:text="@string/year"
         android:textSize="20sp"
         android:layout_width="wrap_content"
