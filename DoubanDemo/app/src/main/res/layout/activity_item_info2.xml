@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.mt.doubandemo.ItemInfoActivity2">
+    tools:context="com.example.mt.doubandemo.ui.ItemInfoActivity2">
     <com.facebook.drawee.view.SimpleDraweeView
         android:id="@+id/img_info_pic2"
         android:layout_width="match_parent"

@@ -1,4 +1,4 @@
-package com.example.mt.doubandemo;
+package com.example.mt.doubandemo.ui;
 
 import android.content.Context;
 import android.support.design.widget.TabLayout;
@@ -7,6 +7,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.example.mt.doubandemo.R;
 import com.example.mt.doubandemo.common.PagerAdapter;
 import com.example.mt.doubandemo.movie.ComingMoviesFragment;
 import com.example.mt.doubandemo.movie.HotMoviesFragment;

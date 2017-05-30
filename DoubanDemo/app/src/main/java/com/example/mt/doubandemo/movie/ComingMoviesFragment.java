@@ -10,8 +10,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.mt.doubandemo.ItemInfoActivity2;
-import com.example.mt.doubandemo.MainActivity;
+import com.example.mt.doubandemo.ui.ItemInfoActivity2;
+import com.example.mt.doubandemo.ui.MainActivity;
 import com.example.mt.doubandemo.R;
 import com.example.mt.doubandemo.api.DoubanRetrofit;
 import com.example.mt.doubandemo.api.DoubanService;
